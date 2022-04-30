@@ -1,0 +1,3 @@
+el comando "ansible-playbook -i inventory playbook.yml" y la coneccion por ssh solo funciona si lo corre un usuario llamado domenicogonzales
+ya que las llaves publicas y privadas en los archivos cloud_init y bionic.key fueron creadas con el usuario domenicogonzales 
+y por eso supongo que el comando "ansible-playbook -i inventory playbook.yml" solo funciona si lo ejecuta un usuario llamado domenicogonzales
